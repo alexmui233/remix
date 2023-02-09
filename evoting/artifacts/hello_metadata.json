@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.4.21+commit.dfe3193c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "Greeter",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_greeting",
+						"type": "string"
+					}
+				],
+				"name": "setGreeting",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "greeting",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"evoting/hello.sol": "hello"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"evoting/hello.sol": {
+			"keccak256": "0xc1c6b95fddd3b2632270c3be475d6edc4ec6c779ee741ee9569bcd3fae0f6da9",
+			"urls": [
+				"bzzr://10c95e7bc00a9b73403037a99fb6ed1d8c72001c15cd1dbe3c529118ad539a26"
+			]
+		}
+	},
+	"version": 1
+}
